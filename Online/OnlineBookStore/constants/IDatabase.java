@@ -6,6 +6,6 @@ public class IDatabase {
 	public static final String CONNECTION_STRING = "jdbc:mysql://localhost:3306/onlinebookstore";
 	public static final String USER_NAME = "root";
 	public static final String PASSWORD = "root";
-	String name ="test";
+	String name ="test1";
 
 }
