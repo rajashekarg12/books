@@ -9,7 +9,7 @@
         My custom rules
     </description>
 
-<rule ref="category/java/errorprone.xml/EmptyCatchBlock" />
+<rule ref="category/java/errorprone.xml" />
   
 
 </ruleset>
