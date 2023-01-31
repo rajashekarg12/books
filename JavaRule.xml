@@ -5,8 +5,7 @@
   <!-- All default java rules deined by pmd  -->
  
 
-<rule ref="category/java/design.xml/AvoidDeeplyNestedIfStmts" >
-      message="more than one If used" >
+<rule ref="category/java/design.xml/AvoidDeeplyNestedIfStmts" message="more than one If used" >
 	<property name="reportLevel" value="1"/>
 	<priority>1</priority>
 </rule>
