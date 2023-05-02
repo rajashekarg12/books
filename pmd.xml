@@ -1,0 +1,1218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.53.0" timestamp="2023-03-15T20:47:13.608">
+<file name="C:\Users\rajashekar\Desktop\maven\src\main\java\UserInputs.java">
+<violation beginline="10" endline="33" begincolumn="1" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="Food" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes, interfaces, enums and annotations must belong to a named package
+</violation>
+<violation beginline="10" endline="33" begincolumn="1" endcolumn="1" rule="ShortClassName" ruleset="Code Style" class="Food" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like Food
+</violation>
+<violation beginline="10" endline="33" begincolumn="1" endcolumn="1" rule="CommentRequired" ruleset="Documentation" class="Food" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Class comments are required
+</violation>
+<violation beginline="10" endline="33" begincolumn="1" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" class="Food" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+Classes implementing Serializable should set a serialVersionUID
+</violation>
+<violation beginline="11" endline="11" begincolumn="5" endcolumn="15" rule="CommentRequired" ruleset="Documentation" class="Food" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Field comments are required
+</violation>
+<violation beginline="11" endline="11" begincolumn="5" endcolumn="15" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="Food" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the itemno field if you want a default access modifier
+</violation>
+<violation beginline="12" endline="12" begincolumn="5" endcolumn="17" rule="CommentRequired" ruleset="Documentation" class="Food" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Field comments are required
+</violation>
+<violation beginline="12" endline="12" begincolumn="5" endcolumn="17" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="Food" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the quantity field if you want a default access modifier
+</violation>
+<violation beginline="13" endline="13" begincolumn="5" endcolumn="16" rule="CommentRequired" ruleset="Documentation" class="Food" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Field comments are required
+</violation>
+<violation beginline="13" endline="13" begincolumn="5" endcolumn="16" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="Food" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the price field if you want a default access modifier
+</violation>
+<violation beginline="15" endline="15" begincolumn="10" endcolumn="19" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Food" method="Food" variable="itemno" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'itemno' is not assigned and could be declared final
+</violation>
+<violation beginline="15" endline="15" begincolumn="22" endcolumn="33" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Food" method="Food" variable="quantity" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'quantity' is not assigned and could be declared final
+</violation>
+<violation beginline="15" endline="32" begincolumn="5" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="Food" method="Food" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the Food constructor if you want a default access modifier
+</violation>
+<violation beginline="18" endline="31" begincolumn="9" endcolumn="9" rule="SwitchStmtsShouldHaveDefault" ruleset="Best Practices" class="Food" method="Food" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#switchstmtsshouldhavedefault" priority="3">
+Switch statements should be exhaustive, add a default case (or missing enum branches)
+</violation>
+<violation beginline="34" endline="49" begincolumn="1" endcolumn="1" rule="CommentRequired" ruleset="Documentation" class="Singleroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Class comments are required
+</violation>
+<violation beginline="34" endline="49" begincolumn="1" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" class="Singleroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+Classes implementing Serializable should set a serialVersionUID
+</violation>
+<violation beginline="35" endline="35" begincolumn="5" endcolumn="16" rule="CommentRequired" ruleset="Documentation" class="Singleroom" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Field comments are required
+</violation>
+<violation beginline="35" endline="35" begincolumn="5" endcolumn="16" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="Singleroom" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the name field if you want a default access modifier
+</violation>
+<violation beginline="36" endline="36" begincolumn="5" endcolumn="19" rule="CommentRequired" ruleset="Documentation" class="Singleroom" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Field comments are required
+</violation>
+<violation beginline="36" endline="36" begincolumn="5" endcolumn="19" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="Singleroom" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the contact field if you want a default access modifier
+</violation>
+<violation beginline="37" endline="37" begincolumn="5" endcolumn="18" rule="CommentRequired" ruleset="Documentation" class="Singleroom" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Field comments are required
+</violation>
+<violation beginline="37" endline="37" begincolumn="5" endcolumn="18" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="Singleroom" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the gender field if you want a default access modifier
+</violation>
+<violation beginline="38" endline="38" begincolumn="5" endcolumn="22" rule="LooseCoupling" ruleset="Best Practices" class="Singleroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="38" endline="38" begincolumn="5" endcolumn="51" rule="CommentRequired" ruleset="Documentation" class="Singleroom" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Field comments are required
+</violation>
+<violation beginline="38" endline="38" begincolumn="5" endcolumn="51" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="Singleroom" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the food field if you want a default access modifier
+</violation>
+<violation beginline="41" endline="43" begincolumn="5" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="Singleroom" method="Singleroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the Singleroom constructor if you want a default access modifier
+</violation>
+<violation beginline="44" endline="44" begincolumn="29" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Singleroom" method="Singleroom" variable="contact" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'contact' is not assigned and could be declared final
+</violation>
+<violation beginline="44" endline="44" begincolumn="45" endcolumn="57" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Singleroom" method="Singleroom" variable="gender" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'gender' is not assigned and could be declared final
+</violation>
+<violation beginline="44" endline="44" begincolumn="16" endcolumn="26" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Singleroom" method="Singleroom" variable="name" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'name' is not assigned and could be declared final
+</violation>
+<violation beginline="44" endline="48" begincolumn="5" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="Singleroom" method="Singleroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the Singleroom constructor if you want a default access modifier
+</violation>
+<violation beginline="50" endline="67" begincolumn="1" endcolumn="1" rule="CommentRequired" ruleset="Documentation" class="Doubleroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Class comments are required
+</violation>
+<violation beginline="50" endline="67" begincolumn="1" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" class="Doubleroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+Classes implementing Serializable should set a serialVersionUID
+</violation>
+<violation beginline="51" endline="51" begincolumn="5" endcolumn="17" rule="CommentRequired" ruleset="Documentation" class="Doubleroom" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Field comments are required
+</violation>
+<violation beginline="51" endline="51" begincolumn="5" endcolumn="17" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="Doubleroom" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the name2 field if you want a default access modifier
+</violation>
+<violation beginline="52" endline="52" begincolumn="5" endcolumn="20" rule="CommentRequired" ruleset="Documentation" class="Doubleroom" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Field comments are required
+</violation>
+<violation beginline="52" endline="52" begincolumn="5" endcolumn="20" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="Doubleroom" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the contact2 field if you want a default access modifier
+</violation>
+<violation beginline="53" endline="53" begincolumn="5" endcolumn="19" rule="CommentRequired" ruleset="Documentation" class="Doubleroom" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Field comments are required
+</violation>
+<violation beginline="53" endline="53" begincolumn="5" endcolumn="19" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="Doubleroom" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the gender2 field if you want a default access modifier
+</violation>
+<violation beginline="55" endline="58" begincolumn="5" endcolumn="5" rule="CallSuperInConstructor" ruleset="Code Style" class="Doubleroom" method="Doubleroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#callsuperinconstructor" priority="3">
+It is a good practice to call super() in a constructor
+</violation>
+<violation beginline="55" endline="58" begincolumn="5" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="Doubleroom" method="Doubleroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the Doubleroom constructor if you want a default access modifier
+</violation>
+<violation beginline="59" endline="66" begincolumn="5" endcolumn="5" rule="CallSuperInConstructor" ruleset="Code Style" class="Doubleroom" method="Doubleroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#callsuperinconstructor" priority="3">
+It is a good practice to call super() in a constructor
+</violation>
+<violation beginline="59" endline="59" begincolumn="29" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Doubleroom" method="Doubleroom" variable="contact" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'contact' is not assigned and could be declared final
+</violation>
+<violation beginline="59" endline="59" begincolumn="74" endcolumn="88" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Doubleroom" method="Doubleroom" variable="contact2" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'contact2' is not assigned and could be declared final
+</violation>
+<violation beginline="59" endline="59" begincolumn="45" endcolumn="57" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Doubleroom" method="Doubleroom" variable="gender" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'gender' is not assigned and could be declared final
+</violation>
+<violation beginline="59" endline="59" begincolumn="91" endcolumn="104" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Doubleroom" method="Doubleroom" variable="gender2" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'gender2' is not assigned and could be declared final
+</violation>
+<violation beginline="59" endline="59" begincolumn="16" endcolumn="26" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Doubleroom" method="Doubleroom" variable="name" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'name' is not assigned and could be declared final
+</violation>
+<violation beginline="59" endline="59" begincolumn="60" endcolumn="71" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Doubleroom" method="Doubleroom" variable="name2" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'name2' is not assigned and could be declared final
+</violation>
+<violation beginline="59" endline="66" begincolumn="5" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="Doubleroom" method="Doubleroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the Doubleroom constructor if you want a default access modifier
+</violation>
+<violation beginline="68" endline="73" begincolumn="1" endcolumn="1" rule="CommentRequired" ruleset="Documentation" class="NotAvailable" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Class comments are required
+</violation>
+<violation beginline="68" endline="73" begincolumn="1" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" class="NotAvailable" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+Classes implementing Serializable should set a serialVersionUID
+</violation>
+<violation beginline="68" endline="73" begincolumn="1" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" class="NotAvailable" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="75" endline="80" begincolumn="1" endcolumn="1" rule="CommentRequired" ruleset="Documentation" class="holder" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Class comments are required
+</violation>
+<violation beginline="75" endline="80" begincolumn="1" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" class="holder" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+Classes implementing Serializable should set a serialVersionUID
+</violation>
+<violation beginline="75" endline="80" begincolumn="1" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" class="holder" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="75" endline="80" begincolumn="1" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" class="holder" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The class name 'holder' doesn't match '[A-Z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="76" endline="76" begincolumn="5" endcolumn="56" rule="CommentRequired" ruleset="Documentation" class="holder" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Field comments are required
+</violation>
+<violation beginline="76" endline="76" begincolumn="16" endcolumn="34" rule="FieldNamingConventions" ruleset="Code Style" class="holder" variable="luxury_doublerrom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The field name 'luxury_doublerrom' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="76" endline="76" begincolumn="5" endcolumn="56" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="holder" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the luxury_doublerrom field if you want a default access modifier
+</violation>
+<violation beginline="77" endline="77" begincolumn="5" endcolumn="56" rule="CommentRequired" ruleset="Documentation" class="holder" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Field comments are required
+</violation>
+<violation beginline="77" endline="77" begincolumn="16" endcolumn="34" rule="FieldNamingConventions" ruleset="Code Style" class="holder" variable="deluxe_doublerrom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The field name 'deluxe_doublerrom' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="77" endline="77" begincolumn="5" endcolumn="56" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="holder" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the deluxe_doublerrom field if you want a default access modifier
+</violation>
+<violation beginline="78" endline="78" begincolumn="16" endcolumn="35" rule="LongVariable" ruleset="Code Style" class="holder" variable="luxury_singleerrom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#longvariable" priority="3">
+Avoid excessively long variable names like luxury_singleerrom
+</violation>
+<violation beginline="78" endline="78" begincolumn="5" endcolumn="57" rule="CommentRequired" ruleset="Documentation" class="holder" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Field comments are required
+</violation>
+<violation beginline="78" endline="78" begincolumn="16" endcolumn="35" rule="FieldNamingConventions" ruleset="Code Style" class="holder" variable="luxury_singleerrom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The field name 'luxury_singleerrom' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="78" endline="78" begincolumn="5" endcolumn="57" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="holder" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the luxury_singleerrom field if you want a default access modifier
+</violation>
+<violation beginline="79" endline="79" begincolumn="16" endcolumn="35" rule="LongVariable" ruleset="Code Style" class="holder" variable="deluxe_singleerrom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#longvariable" priority="3">
+Avoid excessively long variable names like deluxe_singleerrom
+</violation>
+<violation beginline="79" endline="79" begincolumn="5" endcolumn="57" rule="CommentRequired" ruleset="Documentation" class="holder" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Field comments are required
+</violation>
+<violation beginline="79" endline="79" begincolumn="16" endcolumn="35" rule="FieldNamingConventions" ruleset="Code Style" class="holder" variable="deluxe_singleerrom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The field name 'deluxe_singleerrom' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="79" endline="79" begincolumn="5" endcolumn="57" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="holder" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the deluxe_singleerrom field if you want a default access modifier
+</violation>
+<violation beginline="82" endline="450" begincolumn="13" endcolumn="1" rule="UseUtilityClass" ruleset="Design" class="Hotel" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="82" endline="450" begincolumn="1" endcolumn="1" rule="CommentRequired" ruleset="Documentation" class="Hotel" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Class comments are required
+</violation>
+<violation beginline="82" endline="450" begincolumn="1" endcolumn="1" rule="CyclomaticComplexity" ruleset="Design" class="Hotel" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The class 'Hotel' has a total cyclomatic complexity of 87 (highest 25).
+</violation>
+<violation beginline="83" endline="83" begincolumn="12" endcolumn="42" rule="MutableStaticState" ruleset="Design" class="Hotel" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#mutablestaticstate" priority="3">
+Do not use non-final non-private static fields
+</violation>
+<violation beginline="83" endline="83" begincolumn="12" endcolumn="42" rule="CommentRequired" ruleset="Documentation" class="Hotel" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Field comments are required
+</violation>
+<violation beginline="83" endline="83" begincolumn="19" endcolumn="26" rule="FieldNamingConventions" ruleset="Code Style" class="Hotel" variable="hotel_ob" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The static field name 'hotel_ob' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="83" endline="83" begincolumn="12" endcolumn="42" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="Hotel" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the hotel_ob field if you want a default access modifier
+</violation>
+<violation beginline="84" endline="84" begincolumn="20" endcolumn="21" rule="ShortVariable" ruleset="Code Style" class="Hotel" variable="sc" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like sc
+</violation>
+<violation beginline="84" endline="84" begincolumn="12" endcolumn="47" rule="MutableStaticState" ruleset="Design" class="Hotel" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#mutablestaticstate" priority="3">
+Do not use non-final non-private static fields
+</violation>
+<violation beginline="84" endline="84" begincolumn="12" endcolumn="47" rule="CommentRequired" ruleset="Documentation" class="Hotel" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Field comments are required
+</violation>
+<violation beginline="84" endline="84" begincolumn="12" endcolumn="47" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="Hotel" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the sc field if you want a default access modifier
+</violation>
+<violation beginline="85" endline="85" begincolumn="33" endcolumn="33" rule="ShortVariable" ruleset="Code Style" class="Hotel" method="CustDetails" variable="i" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like i
+</violation>
+<violation beginline="85" endline="85" begincolumn="40" endcolumn="41" rule="ShortVariable" ruleset="Code Style" class="Hotel" method="CustDetails" variable="rn" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like rn
+</violation>
+<violation beginline="85" endline="85" begincolumn="29" endcolumn="33" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Hotel" method="CustDetails" variable="i" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'i' is not assigned and could be declared final
+</violation>
+<violation beginline="85" endline="85" begincolumn="36" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Hotel" method="CustDetails" variable="rn" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'rn' is not assigned and could be declared final
+</violation>
+<violation beginline="85" endline="131" begincolumn="12" endcolumn="5" rule="MethodNamingConventions" ruleset="Code Style" class="Hotel" method="CustDetails" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The static method name 'CustDetails' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="85" endline="131" begincolumn="12" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="Hotel" method="CustDetails" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the CustDetails method if you want a default access modifier
+</violation>
+<violation beginline="86" endline="86" begincolumn="9" endcolumn="36" rule="OneDeclarationPerLine" ruleset="Best Practices" class="Hotel" method="CustDetails" variable="VariableDeclaratorId, VariableDeclaratorId, VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#onedeclarationperline" priority="4">
+Use one line for each declaration, it enhances code readability.
+</violation>
+<violation beginline="87" endline="87" begincolumn="9" endcolumn="44" rule="OneDeclarationPerLine" ruleset="Best Practices" class="Hotel" method="CustDetails" variable="VariableDeclaratorId, VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#onedeclarationperline" priority="4">
+Use one line for each declaration, it enhances code readability.
+</violation>
+<violation beginline="89" endline="89" begincolumn="9" endcolumn="24" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="CustDetails" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="91" endline="91" begincolumn="9" endcolumn="24" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="CustDetails" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="93" endline="93" begincolumn="9" endcolumn="24" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="CustDetails" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="95" endline="95" begincolumn="17" endcolumn="17" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" class="Hotel" method="CustDetails" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="96" endline="96" begincolumn="21" endcolumn="21" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" class="Hotel" method="CustDetails" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="97" endline="97" begincolumn="25" endcolumn="25" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" class="Hotel" method="CustDetails" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="97" endline="102" begincolumn="17" endcolumn="17" rule="AvoidDeeplyNestedIfStmts" ruleset="Design" class="Hotel" method="CustDetails" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#avoiddeeplynestedifstmts" priority="3">
+Deeply nested if..then statements are hard to read
+</violation>
+<violation beginline="98" endline="98" begincolumn="29" endcolumn="29" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" class="Hotel" method="CustDetails" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="99" endline="99" begincolumn="25" endcolumn="40" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="CustDetails" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="101" endline="101" begincolumn="21" endcolumn="36" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="CustDetails" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="103" endline="103" begincolumn="17" endcolumn="32" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="CustDetails" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="108" endline="108" begincolumn="13" endcolumn="28" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="CustDetails" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="110" endline="110" begincolumn="13" endcolumn="28" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="CustDetails" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="128" endline="128" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="CustDetails" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="133" endline="133" begincolumn="30" endcolumn="30" rule="ShortVariable" ruleset="Code Style" class="Hotel" method="bookroom" variable="i" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like i
+</violation>
+<violation beginline="133" endline="133" begincolumn="26" endcolumn="30" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Hotel" method="bookroom" variable="i" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'i' is not assigned and could be declared final
+</violation>
+<violation beginline="133" endline="215" begincolumn="12" endcolumn="5" rule="NcssCount" ruleset="Design" class="Hotel" method="bookroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'bookroom(int)' has a NCSS line count of 69.
+</violation>
+<violation beginline="133" endline="215" begincolumn="12" endcolumn="5" rule="CognitiveComplexity" ruleset="Design" class="Hotel" method="bookroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#cognitivecomplexity" priority="3">
+The method 'bookroom(int)' has a cognitive complexity of 37, current threshold is 15
+</violation>
+<violation beginline="133" endline="215" begincolumn="12" endcolumn="5" rule="CyclomaticComplexity" ruleset="Design" class="Hotel" method="bookroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'bookroom(int)' has a cyclomatic complexity of 25.
+</violation>
+<violation beginline="133" endline="215" begincolumn="12" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="Hotel" method="bookroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the bookroom method if you want a default access modifier
+</violation>
+<violation beginline="134" endline="134" begincolumn="13" endcolumn="13" rule="ShortVariable" ruleset="Code Style" class="Hotel" method="bookroom" variable="j" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like j
+</violation>
+<violation beginline="135" endline="135" begincolumn="13" endcolumn="14" rule="ShortVariable" ruleset="Code Style" class="Hotel" method="bookroom" variable="rn" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like rn
+</violation>
+<violation beginline="136" endline="136" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bookroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="137" endline="213" begincolumn="9" endcolumn="9" rule="SwitchDensity" ruleset="Design" class="Hotel" method="bookroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#switchdensity" priority="3">
+A high ratio of statements to labels in a switch statement.  Consider refactoring.
+</violation>
+<violation beginline="141" endline="141" begincolumn="25" endcolumn="40" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bookroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="144" endline="144" begincolumn="17" endcolumn="32" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bookroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="144" endline="144" begincolumn="34" endcolumn="56" rule="AvoidDuplicateLiterals" ruleset="Error Prone" class="Hotel" method="bookroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "\nEnter room number: " appears 4 times in this file; the first occurrence is on line 144
+</violation>
+<violation beginline="149" endline="149" begincolumn="25" endcolumn="49" rule="ControlStatementBraces" ruleset="Code Style" class="Hotel" method="bookroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="151" endline="151" begincolumn="26" endcolumn="34" rule="AvoidCatchingGenericException" ruleset="Design" class="Hotel" method="bookroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#avoidcatchinggenericexception" priority="3">
+Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+</violation>
+<violation beginline="152" endline="152" begincolumn="21" endcolumn="38" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bookroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="152" endline="152" begincolumn="40" endcolumn="55" rule="AvoidDuplicateLiterals" ruleset="Error Prone" class="Hotel" method="bookroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "Invalid Option" appears 5 times in this file; the first occurrence is on line 152
+</violation>
+<violation beginline="153" endline="153" begincolumn="21" endcolumn="27" rule="OnlyOneReturn" ruleset="Code Style" class="Hotel" method="bookroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="159" endline="159" begincolumn="25" endcolumn="40" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bookroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="162" endline="162" begincolumn="17" endcolumn="32" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bookroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="167" endline="167" begincolumn="25" endcolumn="49" rule="ControlStatementBraces" ruleset="Code Style" class="Hotel" method="bookroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="169" endline="169" begincolumn="26" endcolumn="34" rule="AvoidCatchingGenericException" ruleset="Design" class="Hotel" method="bookroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#avoidcatchinggenericexception" priority="3">
+Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+</violation>
+<violation beginline="170" endline="170" begincolumn="21" endcolumn="38" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bookroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="171" endline="171" begincolumn="21" endcolumn="27" rule="OnlyOneReturn" ruleset="Code Style" class="Hotel" method="bookroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="177" endline="177" begincolumn="25" endcolumn="40" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bookroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="180" endline="180" begincolumn="17" endcolumn="32" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bookroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="185" endline="185" begincolumn="25" endcolumn="49" rule="ControlStatementBraces" ruleset="Code Style" class="Hotel" method="bookroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="187" endline="187" begincolumn="26" endcolumn="34" rule="AvoidCatchingGenericException" ruleset="Design" class="Hotel" method="bookroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#avoidcatchinggenericexception" priority="3">
+Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+</violation>
+<violation beginline="188" endline="188" begincolumn="21" endcolumn="38" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bookroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="189" endline="189" begincolumn="21" endcolumn="27" rule="OnlyOneReturn" ruleset="Code Style" class="Hotel" method="bookroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="195" endline="195" begincolumn="25" endcolumn="40" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bookroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="198" endline="198" begincolumn="17" endcolumn="32" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bookroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="203" endline="203" begincolumn="25" endcolumn="49" rule="ControlStatementBraces" ruleset="Code Style" class="Hotel" method="bookroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="205" endline="205" begincolumn="26" endcolumn="34" rule="AvoidCatchingGenericException" ruleset="Design" class="Hotel" method="bookroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#avoidcatchinggenericexception" priority="3">
+Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+</violation>
+<violation beginline="206" endline="206" begincolumn="21" endcolumn="38" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bookroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="211" endline="211" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bookroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="214" endline="214" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bookroom" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="217" endline="217" begincolumn="30" endcolumn="30" rule="ShortVariable" ruleset="Code Style" class="Hotel" method="features" variable="i" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like i
+</violation>
+<violation beginline="217" endline="217" begincolumn="26" endcolumn="30" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Hotel" method="features" variable="i" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'i' is not assigned and could be declared final
+</violation>
+<violation beginline="217" endline="235" begincolumn="12" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="Hotel" method="features" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the features method if you want a default access modifier
+</violation>
+<violation beginline="220" endline="220" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="features" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="223" endline="223" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="features" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="226" endline="226" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="features" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="229" endline="229" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="features" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="232" endline="232" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="features" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="237" endline="237" begincolumn="34" endcolumn="34" rule="ShortVariable" ruleset="Code Style" class="Hotel" method="availability" variable="i" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like i
+</violation>
+<violation beginline="237" endline="237" begincolumn="30" endcolumn="34" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Hotel" method="availability" variable="i" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'i' is not assigned and could be declared final
+</violation>
+<violation beginline="237" endline="269" begincolumn="12" endcolumn="5" rule="CognitiveComplexity" ruleset="Design" class="Hotel" method="availability" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#cognitivecomplexity" priority="3">
+The method 'availability(int)' has a cognitive complexity of 21, current threshold is 15
+</violation>
+<violation beginline="237" endline="269" begincolumn="12" endcolumn="5" rule="CyclomaticComplexity" ruleset="Design" class="Hotel" method="availability" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'availability(int)' has a cyclomatic complexity of 13.
+</violation>
+<violation beginline="237" endline="269" begincolumn="12" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="Hotel" method="availability" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the availability method if you want a default access modifier
+</violation>
+<violation beginline="238" endline="238" begincolumn="13" endcolumn="13" rule="ShortVariable" ruleset="Code Style" class="Hotel" method="availability" variable="j" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like j
+</violation>
+<violation beginline="238" endline="238" begincolumn="9" endcolumn="24" rule="OneDeclarationPerLine" ruleset="Best Practices" class="Hotel" method="availability" variable="VariableDeclaratorId, VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#onedeclarationperline" priority="4">
+Use one line for each declaration, it enhances code readability.
+</violation>
+<violation beginline="243" endline="243" begincolumn="25" endcolumn="32" rule="ControlStatementBraces" ruleset="Code Style" class="Hotel" method="availability" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="249" endline="249" begincolumn="25" endcolumn="32" rule="ControlStatementBraces" ruleset="Code Style" class="Hotel" method="availability" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="255" endline="255" begincolumn="25" endcolumn="32" rule="ControlStatementBraces" ruleset="Code Style" class="Hotel" method="availability" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="261" endline="261" begincolumn="25" endcolumn="32" rule="ControlStatementBraces" ruleset="Code Style" class="Hotel" method="availability" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="265" endline="265" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="availability" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="268" endline="268" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="availability" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="271" endline="271" begincolumn="26" endcolumn="27" rule="ShortVariable" ruleset="Code Style" class="Hotel" method="bill" variable="rn" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like rn
+</violation>
+<violation beginline="271" endline="271" begincolumn="22" endcolumn="27" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Hotel" method="bill" variable="rn" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'rn' is not assigned and could be declared final
+</violation>
+<violation beginline="271" endline="271" begincolumn="30" endcolumn="38" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Hotel" method="bill" variable="rtype" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'rtype' is not assigned and could be declared final
+</violation>
+<violation beginline="271" endline="342" begincolumn="12" endcolumn="5" rule="NcssCount" ruleset="Design" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'bill(int, int)' has a NCSS line count of 63.
+</violation>
+<violation beginline="271" endline="342" begincolumn="12" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the bill method if you want a default access modifier
+</violation>
+<violation beginline="273" endline="278" begincolumn="9" endcolumn="9" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Hotel" method="bill" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'list' could be declared final
+</violation>
+<violation beginline="279" endline="279" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="280" endline="280" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="281" endline="281" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="283" endline="340" begincolumn="9" endcolumn="9" rule="ImplicitSwitchFallThrough" ruleset="Error Prone" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#implicitswitchfallthrough" priority="3">
+A switch statement does not contain a break
+</violation>
+<violation beginline="286" endline="286" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="287" endline="287" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="288" endline="288" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="289" endline="289" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="289" endline="289" begincolumn="36" endcolumn="52" rule="AvoidDuplicateLiterals" ruleset="Error Prone" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "===============" appears 4 times in this file; the first occurrence is on line 289
+</violation>
+<violation beginline="290" endline="290" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="290" endline="290" begincolumn="36" endcolumn="61" rule="AvoidDuplicateLiterals" ruleset="Error Prone" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "Item   Quantity    Price" appears 4 times in this file; the first occurrence is on line 290
+</violation>
+<violation beginline="291" endline="291" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="291" endline="291" begincolumn="36" endcolumn="62" rule="AvoidDuplicateLiterals" ruleset="Error Prone" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "-------------------------" appears 4 times in this file; the first occurrence is on line 291
+</violation>
+<violation beginline="292" endline="292" begincolumn="22" endcolumn="29" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Hotel" method="bill" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'obb' could be declared final
+</violation>
+<violation beginline="294" endline="294" begincolumn="21" endcolumn="55" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Hotel" method="bill" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'format' could be declared final
+</violation>
+<violation beginline="294" endline="294" begincolumn="37" endcolumn="55" rule="AvoidDuplicateLiterals" ruleset="Error Prone" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "%-10s%-10s%-10s%n" appears 4 times in this file; the first occurrence is on line 294
+</violation>
+<violation beginline="295" endline="295" begincolumn="21" endcolumn="37" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.printf is used
+</violation>
+<violation beginline="301" endline="301" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="302" endline="302" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="303" endline="303" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="304" endline="304" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="305" endline="305" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="306" endline="306" begincolumn="22" endcolumn="29" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Hotel" method="bill" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'obb' could be declared final
+</violation>
+<violation beginline="308" endline="308" begincolumn="21" endcolumn="55" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Hotel" method="bill" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'format' could be declared final
+</violation>
+<violation beginline="309" endline="309" begincolumn="21" endcolumn="37" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.printf is used
+</violation>
+<violation beginline="314" endline="314" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="315" endline="315" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="316" endline="316" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="317" endline="317" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="318" endline="318" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="319" endline="319" begincolumn="22" endcolumn="29" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Hotel" method="bill" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'obb' could be declared final
+</violation>
+<violation beginline="321" endline="321" begincolumn="21" endcolumn="55" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Hotel" method="bill" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'format' could be declared final
+</violation>
+<violation beginline="322" endline="322" begincolumn="21" endcolumn="37" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.printf is used
+</violation>
+<violation beginline="327" endline="327" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="328" endline="328" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="329" endline="329" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="330" endline="330" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="331" endline="331" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="332" endline="332" begincolumn="22" endcolumn="29" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Hotel" method="bill" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'obb' could be declared final
+</violation>
+<violation beginline="334" endline="334" begincolumn="21" endcolumn="55" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Hotel" method="bill" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'format' could be declared final
+</violation>
+<violation beginline="335" endline="335" begincolumn="21" endcolumn="37" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.printf is used
+</violation>
+<violation beginline="339" endline="339" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="341" endline="341" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="bill" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="344" endline="344" begincolumn="32" endcolumn="33" rule="ShortVariable" ruleset="Code Style" class="Hotel" method="deallocate" variable="rn" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like rn
+</violation>
+<violation beginline="344" endline="344" begincolumn="28" endcolumn="33" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Hotel" method="deallocate" variable="rn" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'rn' is not assigned and could be declared final
+</violation>
+<violation beginline="344" endline="344" begincolumn="36" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Hotel" method="deallocate" variable="rtype" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'rtype' is not assigned and could be declared final
+</violation>
+<violation beginline="344" endline="415" begincolumn="12" endcolumn="5" rule="CognitiveComplexity" ruleset="Design" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#cognitivecomplexity" priority="3">
+The method 'deallocate(int, int)' has a cognitive complexity of 25, current threshold is 15
+</violation>
+<violation beginline="344" endline="415" begincolumn="12" endcolumn="5" rule="CyclomaticComplexity" ruleset="Design" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'deallocate(int, int)' has a cyclomatic complexity of 17.
+</violation>
+<violation beginline="344" endline="415" begincolumn="12" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the deallocate method if you want a default access modifier
+</violation>
+<violation beginline="345" endline="345" begincolumn="9" endcolumn="13" rule="PrematureDeclaration" ruleset="Code Style" class="Hotel" method="deallocate" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#prematuredeclaration" priority="3">
+Avoid declaring a variable if it is unreferenced before a possible exit point.
+</violation>
+<violation beginline="345" endline="345" begincolumn="13" endcolumn="13" rule="UnusedLocalVariable" ruleset="Best Practices" class="Hotel" method="deallocate" variable="j" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'j'.
+</violation>
+<violation beginline="345" endline="345" begincolumn="13" endcolumn="13" rule="ShortVariable" ruleset="Code Style" class="Hotel" method="deallocate" variable="j" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like j
+</violation>
+<violation beginline="345" endline="345" begincolumn="9" endcolumn="13" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Hotel" method="deallocate" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'j' could be declared final
+</violation>
+<violation beginline="346" endline="346" begincolumn="14" endcolumn="14" rule="ShortVariable" ruleset="Code Style" class="Hotel" method="deallocate" variable="w" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like w
+</violation>
+<violation beginline="347" endline="414" begincolumn="9" endcolumn="9" rule="SwitchDensity" ruleset="Design" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#switchdensity" priority="3">
+A high ratio of statements to labels in a switch statement.  Consider refactoring.
+</violation>
+<violation beginline="350" endline="350" begincolumn="21" endcolumn="38" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="350" endline="350" begincolumn="40" endcolumn="54" rule="AvoidDuplicateLiterals" ruleset="Error Prone" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "Room used by " appears 4 times in this file; the first occurrence is on line 350
+</violation>
+<violation beginline="350" endline="350" begincolumn="21" endcolumn="94" rule="ControlStatementBraces" ruleset="Code Style" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="352" endline="352" begincolumn="21" endcolumn="38" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="352" endline="352" begincolumn="40" endcolumn="54" rule="AvoidDuplicateLiterals" ruleset="Error Prone" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "Empty Already" appears 4 times in this file; the first occurrence is on line 352
+</violation>
+<violation beginline="353" endline="353" begincolumn="21" endcolumn="27" rule="OnlyOneReturn" ruleset="Code Style" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="355" endline="355" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="356" endline="356" begincolumn="21" endcolumn="39" rule="LawOfDemeter" ruleset="Design" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="359" endline="359" begincolumn="54" endcolumn="57" rule="NullAssignment" ruleset="Error Prone" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#nullassignment" priority="3">
+Assigning an Object to null is a code smell.  Consider refactoring.
+</violation>
+<violation beginline="360" endline="360" begincolumn="21" endcolumn="38" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="360" endline="360" begincolumn="40" endcolumn="64" rule="AvoidDuplicateLiterals" ruleset="Error Prone" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "Deallocated succesfully" appears 4 times in this file; the first occurrence is on line 360
+</violation>
+<violation beginline="366" endline="366" begincolumn="21" endcolumn="38" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="366" endline="366" begincolumn="21" endcolumn="94" rule="ControlStatementBraces" ruleset="Code Style" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="368" endline="368" begincolumn="21" endcolumn="38" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="369" endline="369" begincolumn="21" endcolumn="27" rule="OnlyOneReturn" ruleset="Code Style" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="371" endline="371" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="372" endline="372" begincolumn="21" endcolumn="39" rule="LawOfDemeter" ruleset="Design" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="375" endline="375" begincolumn="54" endcolumn="57" rule="NullAssignment" ruleset="Error Prone" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#nullassignment" priority="3">
+Assigning an Object to null is a code smell.  Consider refactoring.
+</violation>
+<violation beginline="376" endline="376" begincolumn="21" endcolumn="38" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="382" endline="382" begincolumn="21" endcolumn="38" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="382" endline="382" begincolumn="21" endcolumn="95" rule="ControlStatementBraces" ruleset="Code Style" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="384" endline="384" begincolumn="21" endcolumn="38" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="385" endline="385" begincolumn="21" endcolumn="27" rule="OnlyOneReturn" ruleset="Code Style" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="387" endline="387" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="388" endline="388" begincolumn="21" endcolumn="39" rule="LawOfDemeter" ruleset="Design" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="391" endline="391" begincolumn="55" endcolumn="58" rule="NullAssignment" ruleset="Error Prone" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#nullassignment" priority="3">
+Assigning an Object to null is a code smell.  Consider refactoring.
+</violation>
+<violation beginline="392" endline="392" begincolumn="21" endcolumn="38" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="398" endline="398" begincolumn="21" endcolumn="38" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="398" endline="398" begincolumn="21" endcolumn="95" rule="ControlStatementBraces" ruleset="Code Style" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="400" endline="400" begincolumn="21" endcolumn="38" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="403" endline="403" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="404" endline="404" begincolumn="21" endcolumn="39" rule="LawOfDemeter" ruleset="Design" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="407" endline="407" begincolumn="55" endcolumn="58" rule="NullAssignment" ruleset="Error Prone" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#nullassignment" priority="3">
+Assigning an Object to null is a code smell.  Consider refactoring.
+</violation>
+<violation beginline="408" endline="408" begincolumn="21" endcolumn="38" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="412" endline="412" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="deallocate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="417" endline="417" begincolumn="27" endcolumn="28" rule="ShortVariable" ruleset="Code Style" class="Hotel" method="order" variable="rn" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like rn
+</violation>
+<violation beginline="417" endline="417" begincolumn="23" endcolumn="28" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Hotel" method="order" variable="rn" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'rn' is not assigned and could be declared final
+</violation>
+<violation beginline="417" endline="417" begincolumn="31" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Hotel" method="order" variable="rtype" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'rtype' is not assigned and could be declared final
+</violation>
+<violation beginline="417" endline="449" begincolumn="12" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="Hotel" method="order" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the order method if you want a default access modifier
+</violation>
+<violation beginline="418" endline="418" begincolumn="13" endcolumn="13" rule="ShortVariable" ruleset="Code Style" class="Hotel" method="order" variable="i" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like i
+</violation>
+<violation beginline="418" endline="418" begincolumn="16" endcolumn="16" rule="ShortVariable" ruleset="Code Style" class="Hotel" method="order" variable="q" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like q
+</violation>
+<violation beginline="418" endline="418" begincolumn="9" endcolumn="16" rule="OneDeclarationPerLine" ruleset="Best Practices" class="Hotel" method="order" variable="VariableDeclaratorId, VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#onedeclarationperline" priority="4">
+Use one line for each declaration, it enhances code readability.
+</violation>
+<violation beginline="421" endline="421" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="order" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="424" endline="424" begincolumn="17" endcolumn="32" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="order" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="427" endline="440" begincolumn="17" endcolumn="17" rule="SwitchStmtsShouldHaveDefault" ruleset="Best Practices" class="Hotel" method="order" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#switchstmtsshouldhavedefault" priority="3">
+Switch statements should be exhaustive, add a default case (or missing enum branches)
+</violation>
+<violation beginline="429" endline="429" begincolumn="65" endcolumn="78" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" class="Hotel" method="order" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="432" endline="432" begincolumn="65" endcolumn="78" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" class="Hotel" method="order" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="435" endline="435" begincolumn="66" endcolumn="79" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" class="Hotel" method="order" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="438" endline="438" begincolumn="66" endcolumn="79" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" class="Hotel" method="order" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="441" endline="441" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="order" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="442" endline="442" begincolumn="24" endcolumn="42" rule="LawOfDemeter" ruleset="Design" class="Hotel" method="order" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="444" endline="444" begincolumn="18" endcolumn="37" rule="AvoidCatchingNPE" ruleset="Error Prone" class="Hotel" method="order" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#avoidcatchingnpe" priority="3">
+Avoid catching NullPointerException; consider removing the cause of the NPE.
+</violation>
+<violation beginline="444" endline="444" begincolumn="18" endcolumn="37" rule="AvoidCatchingGenericException" ruleset="Design" class="Hotel" method="order" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#avoidcatchinggenericexception" priority="3">
+Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+</violation>
+<violation beginline="445" endline="445" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="order" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="446" endline="446" begincolumn="18" endcolumn="26" rule="AvoidCatchingGenericException" ruleset="Design" class="Hotel" method="order" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#avoidcatchinggenericexception" priority="3">
+Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+</violation>
+<violation beginline="447" endline="447" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="Hotel" method="order" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="453" endline="470" begincolumn="1" endcolumn="1" rule="CommentRequired" ruleset="Documentation" class="write" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Class comments are required
+</violation>
+<violation beginline="453" endline="470" begincolumn="1" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" class="write" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The class name 'write' doesn't match '[A-Z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="454" endline="454" begincolumn="5" endcolumn="20" rule="CommentRequired" ruleset="Documentation" class="write" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Field comments are required
+</violation>
+<violation beginline="454" endline="454" begincolumn="12" endcolumn="19" rule="FieldNamingConventions" ruleset="Code Style" class="write" variable="hotel_ob" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The field name 'hotel_ob' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="454" endline="454" begincolumn="5" endcolumn="20" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="write" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the hotel_ob field if you want a default access modifier
+</violation>
+<violation beginline="455" endline="455" begincolumn="11" endcolumn="25" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="write" method="write" variable="hotel_ob" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'hotel_ob' is not assigned and could be declared final
+</violation>
+<violation beginline="455" endline="455" begincolumn="18" endcolumn="25" rule="FormalParameterNamingConventions" ruleset="Code Style" class="write" method="write" variable="hotel_ob" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#formalparameternamingconventions" priority="1">
+The method parameter name 'hotel_ob' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="455" endline="457" begincolumn="5" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="write" method="write" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the write constructor if you want a default access modifier
+</violation>
+<violation beginline="461" endline="461" begincolumn="41" endcolumn="56" rule="AvoidFileStream" ruleset="Performance" class="write" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_performance.html#avoidfilestream" priority="1">
+Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+</violation>
+<violation beginline="461" endline="461" begincolumn="30" endcolumn="33" rule="CloseResource" ruleset="Error Prone" class="write" method="run" variable="fout" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this FileOutputStream object are closed after use
+</violation>
+<violation beginline="461" endline="461" begincolumn="13" endcolumn="66" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="write" method="run" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'fout' could be declared final
+</violation>
+<violation beginline="462" endline="462" begincolumn="32" endcolumn="34" rule="CloseResource" ruleset="Error Prone" class="write" method="run" variable="oos" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this FileOutputStream object are closed after use
+</violation>
+<violation beginline="462" endline="462" begincolumn="13" endcolumn="65" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="write" method="run" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'oos' could be declared final
+</violation>
+<violation beginline="464" endline="464" begincolumn="18" endcolumn="26" rule="AvoidCatchingGenericException" ruleset="Design" class="write" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#avoidcatchinggenericexception" priority="3">
+Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+</violation>
+<violation beginline="465" endline="465" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="write" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="472" endline="559" begincolumn="13" endcolumn="1" rule="UseUtilityClass" ruleset="Design" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="472" endline="559" begincolumn="2" endcolumn="1" rule="ShortClassName" ruleset="Code Style" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like Main
+</violation>
+<violation beginline="472" endline="559" begincolumn="2" endcolumn="1" rule="CommentRequired" ruleset="Documentation" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Class comments are required
+</violation>
+<violation beginline="473" endline="473" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Main" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="473" endline="558" begincolumn="19" endcolumn="5" rule="CommentRequired" ruleset="Documentation" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Public method and constructor comments are required
+</violation>
+<violation beginline="473" endline="558" begincolumn="19" endcolumn="5" rule="NcssCount" ruleset="Design" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'main(String)' has a NCSS line count of 81.
+</violation>
+<violation beginline="473" endline="558" begincolumn="19" endcolumn="5" rule="CognitiveComplexity" ruleset="Design" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#cognitivecomplexity" priority="3">
+The method 'main(String)' has a cognitive complexity of 26, current threshold is 15
+</violation>
+<violation beginline="473" endline="558" begincolumn="19" endcolumn="5" rule="CyclomaticComplexity" ruleset="Design" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'main(String)' has a cyclomatic complexity of 25.
+</violation>
+<violation beginline="476" endline="476" begincolumn="18" endcolumn="18" rule="ShortVariable" ruleset="Code Style" class="Main" method="main" variable="f" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like f
+</violation>
+<violation beginline="476" endline="476" begincolumn="13" endcolumn="39" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Main" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'f' could be declared final
+</violation>
+<violation beginline="478" endline="478" begincolumn="43" endcolumn="57" rule="AvoidFileStream" ruleset="Performance" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_performance.html#avoidfilestream" priority="1">
+Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+</violation>
+<violation beginline="478" endline="478" begincolumn="33" endcolumn="35" rule="CloseResource" ruleset="Error Prone" class="Main" method="main" variable="fin" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this FileInputStream object are closed after use
+</violation>
+<violation beginline="478" endline="478" begincolumn="17" endcolumn="60" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Main" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'fin' could be declared final
+</violation>
+<violation beginline="479" endline="479" begincolumn="35" endcolumn="37" rule="CloseResource" ruleset="Error Prone" class="Main" method="main" variable="ois" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this FileInputStream object are closed after use
+</violation>
+<violation beginline="479" endline="479" begincolumn="17" endcolumn="66" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Main" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'ois' could be declared final
+</violation>
+<violation beginline="482" endline="482" begincolumn="21" endcolumn="22" rule="ShortVariable" ruleset="Code Style" class="Main" method="main" variable="sc" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like sc
+</violation>
+<violation beginline="482" endline="482" begincolumn="21" endcolumn="22" rule="CloseResource" ruleset="Error Prone" class="Main" method="main" variable="sc" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this InputStream object are closed after use
+</violation>
+<violation beginline="482" endline="482" begincolumn="13" endcolumn="47" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Main" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sc' could be declared final
+</violation>
+<violation beginline="483" endline="483" begincolumn="17" endcolumn="18" rule="ShortVariable" ruleset="Code Style" class="Main" method="main" variable="ch" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like ch
+</violation>
+<violation beginline="483" endline="483" begincolumn="13" endcolumn="23" rule="OneDeclarationPerLine" ruleset="Best Practices" class="Main" method="main" variable="VariableDeclaratorId, VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#onedeclarationperline" priority="4">
+Use one line for each declaration, it enhances code readability.
+</violation>
+<violation beginline="488" endline="488" begincolumn="21" endcolumn="38" rule="SystemPrintln" ruleset="Best Practices" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="490" endline="541" begincolumn="21" endcolumn="21" rule="SwitchStmtsShouldHaveDefault" ruleset="Best Practices" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#switchstmtsshouldhavedefault" priority="3">
+Switch statements should be exhaustive, add a default case (or missing enum branches)
+</violation>
+<violation beginline="492" endline="492" begincolumn="29" endcolumn="46" rule="SystemPrintln" ruleset="Best Practices" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="497" endline="497" begincolumn="29" endcolumn="46" rule="SystemPrintln" ruleset="Best Practices" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="502" endline="502" begincolumn="29" endcolumn="46" rule="SystemPrintln" ruleset="Best Practices" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="507" endline="507" begincolumn="29" endcolumn="44" rule="SystemPrintln" ruleset="Best Practices" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="509" endline="509" begincolumn="39" endcolumn="40" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="510" endline="510" begincolumn="33" endcolumn="50" rule="SystemPrintln" ruleset="Best Practices" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="510" endline="510" begincolumn="52" endcolumn="71" rule="AvoidDuplicateLiterals" ruleset="Error Prone" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "Room doesn't exist" appears 4 times in this file; the first occurrence is on line 510
+</violation>
+<violation beginline="510" endline="510" begincolumn="33" endcolumn="73" rule="ControlStatementBraces" ruleset="Code Style" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="511" endline="511" begincolumn="44" endcolumn="45" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="512" endline="512" begincolumn="33" endcolumn="57" rule="ControlStatementBraces" ruleset="Code Style" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="513" endline="513" begincolumn="44" endcolumn="45" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="514" endline="514" begincolumn="33" endcolumn="57" rule="ControlStatementBraces" ruleset="Code Style" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="515" endline="515" begincolumn="44" endcolumn="45" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="516" endline="516" begincolumn="33" endcolumn="57" rule="ControlStatementBraces" ruleset="Code Style" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="518" endline="518" begincolumn="33" endcolumn="56" rule="ControlStatementBraces" ruleset="Code Style" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="520" endline="520" begincolumn="33" endcolumn="50" rule="SystemPrintln" ruleset="Best Practices" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="520" endline="520" begincolumn="33" endcolumn="73" rule="ControlStatementBraces" ruleset="Code Style" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="523" endline="523" begincolumn="29" endcolumn="44" rule="SystemPrintln" ruleset="Best Practices" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="525" endline="525" begincolumn="39" endcolumn="40" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="526" endline="526" begincolumn="33" endcolumn="50" rule="SystemPrintln" ruleset="Best Practices" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="526" endline="526" begincolumn="33" endcolumn="73" rule="ControlStatementBraces" ruleset="Code Style" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="527" endline="527" begincolumn="44" endcolumn="45" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="528" endline="528" begincolumn="33" endcolumn="62" rule="ControlStatementBraces" ruleset="Code Style" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="529" endline="529" begincolumn="44" endcolumn="45" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="530" endline="530" begincolumn="33" endcolumn="62" rule="ControlStatementBraces" ruleset="Code Style" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="531" endline="531" begincolumn="44" endcolumn="45" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="532" endline="532" begincolumn="33" endcolumn="62" rule="ControlStatementBraces" ruleset="Code Style" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="534" endline="534" begincolumn="33" endcolumn="61" rule="ControlStatementBraces" ruleset="Code Style" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="536" endline="536" begincolumn="33" endcolumn="50" rule="SystemPrintln" ruleset="Best Practices" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="536" endline="536" begincolumn="33" endcolumn="73" rule="ControlStatementBraces" ruleset="Code Style" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="543" endline="543" begincolumn="21" endcolumn="38" rule="SystemPrintln" ruleset="Best Practices" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="544" endline="544" begincolumn="28" endcolumn="46" rule="LawOfDemeter" ruleset="Design" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="546" endline="546" begincolumn="25" endcolumn="42" rule="SystemPrintln" ruleset="Best Practices" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="547" endline="547" begincolumn="25" endcolumn="42" rule="SystemPrintln" ruleset="Best Practices" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="548" endline="548" begincolumn="32" endcolumn="50" rule="LawOfDemeter" ruleset="Design" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="553" endline="553" begincolumn="20" endcolumn="20" rule="ShortVariable" ruleset="Code Style" class="Main" method="main" variable="t" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like t
+</violation>
+<violation beginline="553" endline="553" begincolumn="13" endcolumn="60" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Main" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 't' could be declared final
+</violation>
+<violation beginline="553" endline="553" begincolumn="28" endcolumn="33" rule="DoNotUseThreads" ruleset="Multithreading" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_multithreading.html#donotusethreads" priority="3">
+To be compliant to J2EE, a webapp should not use any thread.
+</violation>
+<violation beginline="555" endline="555" begincolumn="18" endcolumn="26" rule="AvoidCatchingGenericException" ruleset="Design" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#avoidcatchinggenericexception" priority="3">
+Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+</violation>
+<violation beginline="556" endline="556" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+</file>
+<file name="C:\Users\rajashekar\Desktop\maven\src\main\java\com\denofprogramming\config\Config.java">
+<violation beginline="23" endline="40" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.denofprogramming.config" class="Config" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="26" endline="32" begincolumn="9" endcolumn="2" rule="CommentRequired" ruleset="Documentation" package="com.denofprogramming.config" class="Config" method="setupViewResolver" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Public method and constructor comments are required
+</violation>
+<violation beginline="27" endline="27" begincolumn="3" endcolumn="60" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.denofprogramming.config" class="Config" method="setupViewResolver" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'resolver' could be declared final
+</violation>
+<violation beginline="35" endline="37" begincolumn="9" endcolumn="2" rule="CommentRequired" ruleset="Documentation" package="com.denofprogramming.config" class="Config" method="randomGenerator" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Public method and constructor comments are required
+</violation>
+</file>
+<file name="C:\Users\rajashekar\Desktop\maven\src\main\java\com\denofprogramming\config\WebInitializer.java">
+<violation beginline="15" endline="29" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.denofprogramming.config" class="WebInitializer" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="17" endline="17" begincolumn="24" endcolumn="52" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.denofprogramming.config" class="WebInitializer" method="onStartup" variable="servletContext" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'servletContext' is not assigned and could be declared final
+</violation>
+<violation beginline="17" endline="27" begincolumn="9" endcolumn="5" rule="CommentRequired" ruleset="Documentation" package="com.denofprogramming.config" class="WebInitializer" method="onStartup" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Public method and constructor comments are required
+</violation>
+<violation beginline="17" endline="27" begincolumn="9" endcolumn="5" rule="MissingOverride" ruleset="Best Practices" package="com.denofprogramming.config" class="WebInitializer" method="onStartup" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'onStartup(ServletContext)' is missing an @Override annotation.
+</violation>
+<violation beginline="19" endline="19" begincolumn="47" endcolumn="49" rule="CloseResource" ruleset="Error Prone" package="com.denofprogramming.config" class="WebInitializer" method="onStartup" variable="ctx" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this AnnotationConfigWebApplicationContext object are closed after use
+</violation>
+<violation beginline="19" endline="19" begincolumn="9" endcolumn="95" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.denofprogramming.config" class="WebInitializer" method="onStartup" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'ctx' could be declared final
+</violation>
+<violation beginline="23" endline="23" begincolumn="9" endcolumn="93" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="com.denofprogramming.config" class="WebInitializer" method="onStartup" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'servlet' could be declared final
+</violation>
+</file>
+<file name="C:\Users\rajashekar\Desktop\maven\src\main\java\com\denofprogramming\controller\IdentifierGenerationController.java">
+<violation beginline="8" endline="8" begincolumn="1" endcolumn="42" rule="UnnecessaryImport" ruleset="Code Style" package="com.denofprogramming.controller" class="IdentifierGenerationController" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
+Unused import 'org.apache.log4j.spi.LoggerFactory'
+</violation>
+<violation beginline="20" endline="36" begincolumn="1" endcolumn="2" rule="CommentSize" ruleset="Documentation" package="com.denofprogramming.controller" class="IdentifierGenerationController" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentsize" priority="3">
+Comment is too large: Too many lines
+</violation>
+<violation beginline="38" endline="76" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.denofprogramming.controller" class="IdentifierGenerationController" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="40" endline="40" begincolumn="1" endcolumn="2" rule="CommentSize" ruleset="Documentation" package="com.denofprogramming.controller" class="IdentifierGenerationController" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentsize" priority="3">
+Comment is too large: Line too long
+</violation>
+<violation beginline="41" endline="41" begincolumn="1" endcolumn="2" rule="CommentSize" ruleset="Documentation" package="com.denofprogramming.controller" class="IdentifierGenerationController" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentsize" priority="3">
+Comment is too large: Line too long
+</violation>
+<violation beginline="44" endline="45" begincolumn="23" endcolumn="80" rule="CommentRequired" ruleset="Documentation" package="com.denofprogramming.controller" class="IdentifierGenerationController" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Field comments are required
+</violation>
+<violation beginline="44" endline="44" begincolumn="30" endcolumn="35" rule="FieldNamingConventions" ruleset="Code Style" package="com.denofprogramming.controller" class="IdentifierGenerationController" variable="logger" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The constant name 'logger' doesn't match '[A-Z][A-Z_0-9]*'
+</violation>
+<violation beginline="48" endline="48" begincolumn="10" endcolumn="75" rule="CommentRequired" ruleset="Documentation" package="com.denofprogramming.controller" class="IdentifierGenerationController" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Field comments are required
+</violation>
+<violation beginline="48" endline="48" begincolumn="10" endcolumn="75" rule="ProperLogger" ruleset="Error Prone" package="com.denofprogramming.controller" class="IdentifierGenerationController" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#properlogger" priority="3">
+Logger should be defined private static final and have the correct class
+</violation>
+<violation beginline="48" endline="48" begincolumn="14" endcolumn="16" rule="ImmutableField" ruleset="Design" package="com.denofprogramming.controller" class="IdentifierGenerationController" variable="log" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Private field 'log' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="51" endline="51" begincolumn="10" endcolumn="37" rule="CommentRequired" ruleset="Documentation" package="com.denofprogramming.controller" class="IdentifierGenerationController" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Field comments are required
+</violation>
+<violation beginline="54" endline="54" begincolumn="34" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.denofprogramming.controller" class="IdentifierGenerationController" method="showNewIdentifier" variable="model" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'model' is not assigned and could be declared final
+</violation>
+<violation beginline="54" endline="74" begincolumn="9" endcolumn="2" rule="CommentRequired" ruleset="Documentation" package="com.denofprogramming.controller" class="IdentifierGenerationController" method="showNewIdentifier" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Public method and constructor comments are required
+</violation>
+<violation beginline="60" endline="61" begincolumn="3" endcolumn="40" rule="GuardLogStatement" ruleset="Best Practices" package="com.denofprogramming.controller" class="IdentifierGenerationController" method="showNewIdentifier" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="61" endline="61" begincolumn="7" endcolumn="39" rule="LawOfDemeter" ruleset="Design" package="com.denofprogramming.controller" class="IdentifierGenerationController" method="showNewIdentifier" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="64" endline="65" begincolumn="3" endcolumn="43" rule="GuardLogStatement" ruleset="Best Practices" package="com.denofprogramming.controller" class="IdentifierGenerationController" method="showNewIdentifier" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+<violation beginline="65" endline="65" begincolumn="7" endcolumn="42" rule="LawOfDemeter" ruleset="Design" package="com.denofprogramming.controller" class="IdentifierGenerationController" method="showNewIdentifier" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="69" endline="69" begincolumn="33" endcolumn="56" rule="LawOfDemeter" ruleset="Design" package="com.denofprogramming.controller" class="IdentifierGenerationController" method="showNewIdentifier" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="70" endline="70" begincolumn="28" endcolumn="52" rule="LawOfDemeter" ruleset="Design" package="com.denofprogramming.controller" class="IdentifierGenerationController" method="showNewIdentifier" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+</file>
+<file name="C:\Users\rajashekar\Desktop\maven\src\main\java\com\denofprogramming\random\DefaultRandomNumberGenerator.java">
+<violation beginline="13" endline="31" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.denofprogramming.random" class="DefaultRandomNumberGenerator" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="17" endline="20" begincolumn="9" endcolumn="2" rule="CommentRequired" ruleset="Documentation" package="com.denofprogramming.random" class="DefaultRandomNumberGenerator" method="generate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Public method and constructor comments are required
+</violation>
+<violation beginline="17" endline="20" begincolumn="9" endcolumn="2" rule="MissingOverride" ruleset="Best Practices" package="com.denofprogramming.random" class="DefaultRandomNumberGenerator" method="generate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'generate()' is missing an @Override annotation.
+</violation>
+<violation beginline="18" endline="18" begincolumn="13" endcolumn="14" rule="ShortVariable" ruleset="Code Style" package="com.denofprogramming.random" class="DefaultRandomNumberGenerator" method="generate" variable="id" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="22" endline="25" begincolumn="12" endcolumn="2" rule="CommentRequired" ruleset="Documentation" package="com.denofprogramming.random" class="DefaultRandomNumberGenerator" method="generateNumber" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Protected method constructor comments are required
+</violation>
+<violation beginline="23" endline="23" begincolumn="29" endcolumn="48" rule="LongVariable" ruleset="Code Style" package="com.denofprogramming.random" class="DefaultRandomNumberGenerator" method="generateNumber" variable="aRandomDataGenerator" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#longvariable" priority="3">
+Avoid excessively long variable names like aRandomDataGenerator
+</violation>
+<violation beginline="27" endline="29" begincolumn="9" endcolumn="2" rule="CommentRequired" ruleset="Documentation" package="com.denofprogramming.random" class="DefaultRandomNumberGenerator" method="name" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Public method and constructor comments are required
+</violation>
+<violation beginline="27" endline="29" begincolumn="9" endcolumn="2" rule="MissingOverride" ruleset="Best Practices" package="com.denofprogramming.random" class="DefaultRandomNumberGenerator" method="name" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'name()' is missing an @Override annotation.
+</violation>
+</file>
+<file name="C:\Users\rajashekar\Desktop\maven\src\main\java\com\denofprogramming\random\GeneratedRandomIdentifier.java">
+<violation beginline="10" endline="10" begincolumn="10" endcolumn="26" rule="CommentRequired" ruleset="Documentation" package="com.denofprogramming.random" class="GeneratedRandomIdentifier" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Field comments are required
+</violation>
+<violation beginline="10" endline="10" begincolumn="10" endcolumn="26" rule="AvoidFieldNameMatchingMethodName" ruleset="Error Prone" package="com.denofprogramming.random" class="GeneratedRandomIdentifier" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_errorprone.html#avoidfieldnamematchingmethodname" priority="3">
+Field createdBy has the same name as a method
+</violation>
+<violation beginline="11" endline="11" begincolumn="14" endcolumn="15" rule="ShortVariable" ruleset="Code Style" package="com.denofprogramming.random" class="GeneratedRandomIdentifier" variable="id" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="11" endline="11" begincolumn="10" endcolumn="16" rule="CommentRequired" ruleset="Documentation" package="com.denofprogramming.random" class="GeneratedRandomIdentifier" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Field comments are required
+</violation>
+<violation beginline="22" endline="24" begincolumn="9" endcolumn="2" rule="CommentRequired" ruleset="Documentation" package="com.denofprogramming.random" class="GeneratedRandomIdentifier" method="identifier" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Public method and constructor comments are required
+</violation>
+<violation beginline="33" endline="38" begincolumn="16" endcolumn="2" rule="CommentRequired" ruleset="Documentation" package="com.denofprogramming.random" class="GeneratedRandomIdentifier" method="valueOf" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Public method and constructor comments are required
+</violation>
+</file>
+<file name="C:\Users\rajashekar\Desktop\maven\src\main\java\com\denofprogramming\random\RandomGenerator.java">
+<violation beginline="14" endline="14" begincolumn="5" endcolumn="18" rule="CommentRequired" ruleset="Documentation" package="com.denofprogramming.random" class="RandomGenerator" method="name" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Public method and constructor comments are required
+</violation>
+<violation beginline="16" endline="16" begincolumn="5" endcolumn="41" rule="CommentRequired" ruleset="Documentation" package="com.denofprogramming.random" class="RandomGenerator" method="generate" externalInfoUrl="https://pmd.github.io/pmd-6.53.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Public method and constructor comments are required
+</violation>
+</file>
+<configerror rule="LoosePackageCoupling" msg="No packages or classes specified"/>
+</pmd>
