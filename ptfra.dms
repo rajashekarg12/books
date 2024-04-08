@@ -14,7 +14,7 @@
 --  errors, please report them to us in writing.                   
 --                                                                 
 --  Copyright (C) 1988, 2019, Oracle and/or its affiliates.        
---  All Rights Reserved.   kk   k                                  
+--  All Rights Reserved.   kk   k k                                 
 -- *************************************************************** 
 
 SET LOG ptfra.log;
