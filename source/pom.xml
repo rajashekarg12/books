@@ -24,6 +24,10 @@
       </plugin>
     </plugins>
   </build>
+	 <properties>
+      <!-- SERVER ON A REMOTE HOST -->
+      <sonar.host.url>http://localhost:9002</sonar.host.url>
+   </properties>
   <dependencies>
   	
   	<dependency>
