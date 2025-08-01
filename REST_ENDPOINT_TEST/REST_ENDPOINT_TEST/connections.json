@@ -1,7 +1,7 @@
 [
     {
         "connectionProperties": [],
-        "role": "SOURCE",
+ 
         "securityProperties": [],
         "name": "REST Endpoint Test",
         "privateEndpoint": false,
