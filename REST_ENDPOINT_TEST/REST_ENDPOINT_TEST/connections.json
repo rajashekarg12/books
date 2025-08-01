@@ -1,0 +1,17 @@
+[
+    {
+        "connectionProperties": [],
+        "role": "SOURCE",
+        "securityProperties": [],
+        "name": "REST Endpoint Test",
+        "privateEndpoint": false,
+        "id": "REST_ENDPOINT_TEST",
+        "securityPolicy": "OAUTH_INBOUND",
+        "adapterType": {
+            "displayName": "REST",
+            "name": "rest",
+            "links": [],
+            "type": "PREINSTALLED"
+        }
+    }
+]
