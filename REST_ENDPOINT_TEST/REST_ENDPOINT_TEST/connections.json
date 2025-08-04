@@ -3,9 +3,9 @@
         "connectionProperties": [],
  
         "securityProperties": [],
-        "name": "REST Endpoint Test",
+        "name": "REST Endpoint Test from SCM",
         "privateEndpoint": false,
-        "id": "REST_ENDPOINT_TEST",
+        "id": "REST_ENDPOINT_TEST_SCM",
         "securityPolicy": "OAUTH_INBOUND",
         "adapterType": {
             "displayName": "REST",
